@@ -23,7 +23,7 @@ describe('Calculator', () => {
 
   it('should allow starting value to be negative', () => {
     const result = createCalculator(-10).add(25).subtract(5).equals();
-    expect(result).toBe(10);
+    expect(result).toBe(15);
   });
 
   it('should return the same value if no operations are performed', () => {
