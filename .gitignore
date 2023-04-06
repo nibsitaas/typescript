@@ -9,7 +9,7 @@ dist/
 .DS_Store
 
 # testing
-coverage/
+.coverage/
 
 # deplock
 package-lock.json
